@@ -1,14 +1,26 @@
-
-
-@fontface {
+@font-face {
 		font-family: Futura Light;
 		src: url("fonts/Futura (Light).ttf");
 }
 
+header {
+		width: 100%;
+}
+#header-wrapper {
+		position: relative;
+		display: block;
+}
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: #3B3B3B;
+#header img {
+		width: 100%;
+		height: auto;
+		position: absolute;
+}
+
+#logo img {
+		padding: 1em;
+		display: block;
+		max-width: 897px;
+		margin: 0 auto;
+		width: 100%;
 }
