@@ -32,6 +32,7 @@ a .wrapper {
 }
 
 p {
+		padding-top: 25px;
 		font-family: "Futura Light";
 }
 
@@ -41,8 +42,19 @@ p {
 }
 
 .typography {
+		float: left;
 		background-color: #FFFFFF;
 		max-width: 300px;
 		padding: 1% 5% 5%;
 		margin: 0px 0px 0px 10px;
+}
+#colors li {
+		color: transparent;
+		display: inline;
+		list-style-type: none;
+		margin-left: .8em;
+}
+
+#colors ul {
+
 }
