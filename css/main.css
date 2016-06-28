@@ -1,0 +1,14 @@
+
+
+@fontface {
+		font-family: Futura Light;
+		src: url("fonts/Futura (Light).ttf");
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3B3B;
+}
