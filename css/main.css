@@ -1,3 +1,6 @@
+
+
+
 @font-face {
 		font-family: Futura Light;
 		src: url("fonts/Futura (Light).ttf");
@@ -6,12 +9,8 @@
 header {
 		width: 100%;
 }
-#header {
-		position: relative;
-		display: block;
-}
+
 a .wrapper {
-		position: relative;
 		max-width: 38em;
 		padding: 2em 0;
 }
@@ -19,13 +18,4 @@ a .wrapper {
 #header img {
 		width: 100%;
 		height: auto;
-		position: absolute;
-}
-
-#logo img {
-		padding: 1em;
-		display: block;
-		max-width: 897px;
-		margin: 0 auto;
-		width: 100%;
 }
