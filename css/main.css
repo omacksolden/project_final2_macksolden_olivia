@@ -46,15 +46,27 @@ p {
 		background-color: #FFFFFF;
 		max-width: 300px;
 		padding: 1% 5% 5%;
-		margin: 0px 0px 0px 10px;
+		margin: 0px 0px 10px 10px;
 }
+
 #colors li {
 		color: transparent;
 		display: inline;
 		list-style-type: none;
-		margin-left: .8em;
+		margin-bottom: 0.8em;
+		margin-left: 0.6em;
 }
 
-#colors ul {
+.buttons li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 0px 5px 0px 5px;
+}
 
+#images {
+		width: 100%
+}
+
+#images li {
+		list-style-type: none;
 }
