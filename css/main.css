@@ -6,9 +6,14 @@
 header {
 		width: 100%;
 }
-#header-wrapper {
+#header {
 		position: relative;
 		display: block;
+}
+a .wrapper {
+		position: relative;
+		max-width: 38em;
+		padding: 2em 0;
 }
 
 #header img {
