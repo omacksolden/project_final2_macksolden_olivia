@@ -13,11 +13,13 @@ body {
 h1 {
 		font-family: "Michroma", sans-serif;
 		color: #ed1f24;
+		font-size: 1.5em;
 }
 
 h3 {
 		font-family: "Michroma", sans-serif;
 		color: #414141;
+		font-size: 1em;
 }
 
 header {
