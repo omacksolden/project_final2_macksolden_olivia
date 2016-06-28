@@ -25,10 +25,18 @@ h3 {
 header {
 		width: 100%;
 }
+ul li {
+		list-style-type: none;
+}
 a {
 		font-family: "Futura Light";
 		color: #109209;
 		font-style: italic;
+		font-weight: bolder;
+}
+
+a:hover {
+		color: grey;
 }
 
 a .wrapper {
@@ -67,11 +75,10 @@ p {
 		display: inline-block;
 		padding: 0px 5px 0px 5px;
 }
+.buttons img:hover {
+    opacity: 0.5;
 
 #images {
-		width: 100%
-}
-
-#images li {
-		list-style-type: none;
+		width: 100%;
+		margin: 5px;
 }
