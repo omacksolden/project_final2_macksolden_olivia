@@ -8,6 +8,10 @@ html {
 	 	box-sizing: inherit;
  }
 
+ .site-cotainer {
+		max-width: 1200px;
+ }
+
 
 @font-face {
 		font-family: Futura Light;
@@ -33,14 +37,21 @@ h3 {
 header {
 		width: 100%;
 }
+
 ul li {
 		list-style-type: none;
 }
+
 a {
 		font-family: "Futura Light";
 		color: #109209;
 		font-style: italic;
 		font-weight: bolder;
+}
+
+#main {
+		margin: auto;
+		width: 100%;
 }
 
 a:hover {
@@ -85,8 +96,4 @@ p {
 }
 .buttons img:hover {
     opacity: 0.5;
-
-#images {
-		width: 100%;
-		margin: 5px;
 }
