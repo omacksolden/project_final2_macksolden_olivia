@@ -25,6 +25,11 @@ h3 {
 header {
 		width: 100%;
 }
+a {
+		font-family: "Futura Light";
+		color: #109209;
+		font-style: italic;
+}
 
 a .wrapper {
 		max-width: 38em;
