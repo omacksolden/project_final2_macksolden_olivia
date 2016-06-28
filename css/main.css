@@ -3,7 +3,21 @@
 
 @font-face {
 		font-family: Futura Light;
-		src: url("fonts/Futura (Light).ttf");
+		src: url("../fonts/Futura (Light).ttf");
+}
+
+body {
+		background-image: url("../img/nightsky.jpg");
+}
+
+h1 {
+		font-family: "Michroma", sans-serif;
+		color: #ed1f24;
+}
+
+h3 {
+		font-family: "Michroma", sans-serif;
+		color: #414141;
 }
 
 header {
@@ -15,7 +29,18 @@ a .wrapper {
 		padding: 2em 0;
 }
 
+p {
+		font-family: "Futura Light";
+}
+
 #header img {
 		width: 100%;
 		height: auto;
+}
+
+.typography {
+		background-color: #FFFFFF;
+		max-width: 300px;
+		padding: 1% 5% 5%;
+		margin: 0px 0px 0px 10px;
 }
