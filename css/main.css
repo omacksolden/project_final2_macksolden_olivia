@@ -3,8 +3,8 @@ html {
  }
 
  *,
- *:before,
- *:after {
+ *::before,
+ *::after {
 	 	box-sizing: inherit;
  }
 
@@ -12,9 +12,12 @@ html {
 		max-width: 1200px;
  }
 
-p, ul, ol {
+p,
+ul,
+ol {
 		line-height: 180%;
 }
+
 @font-face {
 		font-family: Futura Light;
 		src: url("../fonts/Futura (Light).ttf");
@@ -84,6 +87,7 @@ p {
     #typography {
       float: left;
       width: calc(100% / 3 - 1.5em);
+			margin-left: 200px;
     }
 		.slime {
 			float: left;
@@ -94,11 +98,33 @@ p {
 		}
 
 		#colors {
-			margin:auto;
+			margin: auto;
 		}
 }
 
+.logo2 {
+		display: none;
+}
 
+@media all and (max-width: 600px) {
+    .logo1 {
+			display: none;
+    }
+
+		.logo2 {
+			display: block;
+		}
+
+		#typography {
+			padding: 20px;
+			margin-right: 10px;
+		}
+
+		.outside img {
+			width: 100%;
+			height: auto;
+		}
+}
 
 #typography {
 		background-color: #FFFFFF;
@@ -119,6 +145,7 @@ p {
 		display: inline-block;
 		padding: 0px 5px 0px 5px;
 }
+
 .buttons img:hover {
     opacity: 0.5;
 }
